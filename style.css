@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff; /* changed text color to white */
+    background-color: #333; /* changed background color to a darker gray */
+  }
+  
+  header {
+    background-color: #222; /* changed header color to a slightly lighter gray */
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .project h3 {
+    margin-top: 0;
+  }
+  
+  .project p {
+    margin-bottom: 10px;
+  }
+  
+  .project a {
+    display: inline-block;
+    background-color: #fff; /* changed project link background color to white */
+    color: #333; /* changed project link text color to a darker gray */
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #fff; /* changed button background color to white */
+    color: #333; /* changed button text color to a darker gray */
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    background-color: #fff; /* changed input background color to white */
+    color: #333; /* changed input text color to a darker gray */
+  }
+  
+  form input[type="submit"] {
+    background-color: #fff; /* changed submit button background color to white */
+    color: #333; /* changed submit button text color to a darker gray */
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #222; /* changed footer color to a slightly lighter gray */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    nav ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    height: 50px; /* Set a fixed height for the title element */
+    overflow: hidden; /* Hide any overflowed text */
+    color: #fff; /* changed h1 text color to white */
+  }
+  
+  #video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+  }
+  
+  #video-background video {
+    object-fit: cover;
+    opacity: 0.5; /* reduced video opacity to make text more visible */
+  }
+  
+  
+
+  
