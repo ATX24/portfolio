@@ -1,5 +1,5 @@
 // Typing animation for the titles
-const titles = ['Dhilan Shah', 'Segui il tuo corso et lascia dir les genti', 'NASA SEES', 'BalkanID', 'Applied Research Labs'];
+const titles = ['Dhilan Shah', 'NASA SEES', 'BalkanID', 'Applied Research Labs'];
 const titleElement = document.querySelector('h1');
 let titleIndex = 0;
 let charIndex = 0;
